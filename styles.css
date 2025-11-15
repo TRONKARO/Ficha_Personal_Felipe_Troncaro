@@ -32,7 +32,7 @@ body {
   --shadow-soft: 0 18px 40px rgba(15, 23, 42, 0.12);
 }
 
-/* MODO OSCURO: se cambian las variables */
+/* MODO OSCURO  */
 body.dark-mode {
   --bg-color: #050816;
   --card-bg: #0f172a;
@@ -211,8 +211,8 @@ body.dark-mode {
   width: 100%;
   height: auto;
   object-fit: contain;
-  background-color: white; /* opcional para que destaque */
-  padding: 10px; /* opcional */
+  background-color: white;
+  padding: 10px; 
 }
 
 
@@ -295,3 +295,4 @@ body.dark-mode .project-image-wrapper {
     font-size: 1.6rem;
   }
 }
+
